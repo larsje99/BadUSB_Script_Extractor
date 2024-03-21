@@ -26,7 +26,7 @@
 <br>
 
 <h3>3. duckhunt install</h3>
-<p>Navigate to this repository: https://github.com/agentzex/FlipperZero-BadUSB-Wireshark/tree/main</p>
+<p>Navigate to this repository: https://github.com/pmsosa/duckhunt</p>
 
 **Shortened setup process:**
 1. <p>Clone repository: 'git clone https://github.com/pmsosa/duckhunt.git'</p>
