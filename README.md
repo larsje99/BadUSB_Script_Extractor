@@ -16,6 +16,8 @@
 
 ![wireshark_wizard](screenshots/wireshark_wizard.png)
 
+<br>
+
 <h3>2. FlipperZero-BadUSB-Wireshark install</h3>
 <p>Follow installation process of the following repository: https://github.com/agentzex/FlipperZero-BadUSB-Wireshark/tree/main</p>
 
@@ -58,7 +60,7 @@ Click [here](https://github.com/larsje99/usbscanner_for_ParrotOS) to find my off
 
 The analyzer will return some important information about the device, save the idVendor and idProduct for later use!
 
-![output_example](https://raw.githubusercontent.com/larsje99/BadUSB_Script_Extractor/master/screenshots/output_example.PNG)
+![output_example](screenshots/output_example.PNG)
 
 <br>
 
@@ -66,7 +68,7 @@ The analyzer will return some important information about the device, save the i
 
 Now we can whitelist a specific USB device in our virtual machine with the idVendor and idProduct.
 
-![whitelist_usb](https://raw.githubusercontent.com/larsje99/BadUSB_Script_Extractor/master/screenshots/whitelist_usb.PNG)
+![whitelist_usb](screenshots/whitelist_usb.PNG)
 
 **<p>NOW WHEN LAUNCHING YOUR WINDOWS 10 VIRTUAL MACHINE THE DEVICE WILL AUTOMATICALLY BE CONNECTED TO THE VM!</p>**
 
@@ -78,17 +80,17 @@ Now we can whitelist a specific USB device in our virtual machine with the idVen
 
 <p>Run duckhunt.0.9.blacklist</p>
 
-![start-up-screen](https://raw.githubusercontent.com/larsje99/BadUSB_Script_Extractor/master/screenshots/start-up-screen.png)
+![start-up-screen](screenshots/start-up-screen.png)
 
 <p>Executable is now running</p>
 
-![task-manager](https://raw.githubusercontent.com/larsje99/BadUSB_Script_Extractor/master/screenshots/task-manager.png)
+![task-manager](screenshots/task-manager.png)
 
 <br>
 
 **<h3>2. Open Wireshark and capture USBPcap</h3>**
-![wireshark](https://raw.githubusercontent.com/larsje99/BadUSB_Script_Extractor/master/screenshots/wireshark.PNG)
-![wireshark_capturing](https://raw.githubusercontent.com/larsje99/BadUSB_Script_Extractor/master/screenshots/wireshark_capturing.PNG)
+![wireshark](screenshots/wireshark.PNG)
+![wireshark_capturing](screenshots/wireshark_capturing.PNG)
 
 <br>
 
@@ -97,13 +99,13 @@ Now we can whitelist a specific USB device in our virtual machine with the idVen
 <p>The duckhunt executable will now block and log all input given</p>
 
 **RECOMMENDED SETUP EXAMPLE BELOW**
-![wireshark-cmd](https://raw.githubusercontent.com/larsje99/BadUSB_Script_Extractor/master/screenshots/wireshark_cmd.PNG)
+![wireshark-cmd](screenshots/wireshark_cmd.PNG)
 
 <p>Log file is present in the Start-up directory</p>
 
 **THIS IS NOT IDEAL AND NOT REALLY PLEASENT TO READ -> SOLVED BELOW**
-![log_startup](https://raw.githubusercontent.com/larsje99/BadUSB_Script_Extractor/master/screenshots/log_startup.PNG)
-![log_example](https://raw.githubusercontent.com/larsje99/BadUSB_Script_Extractor/master/screenshots/log_example.PNG)
+![log_startup](screenshots/log_startup.PNG)
+![log_example](screenshots/log_example.PNG)
 
 <br>
 
@@ -112,15 +114,15 @@ Now we can whitelist a specific USB device in our virtual machine with the idVen
 
 **!!! IMPORTANT: ALWAYS BE FOCUSSED ON THE TERMINAL WINDOW !!!**
 **<p>-> In case of input running past the terminal window, duckhunt.exe will stop the attack</p>**
-![capturing_badusb](https://raw.githubusercontent.com/larsje99/BadUSB_Script_Extractor/master/screenshots/capturing_badusb.PNG)
+![capturing_badusb](screenshots/capturing_badusb.PNG)
 
 <br>
 
 **<h3>5. Save Wireshark report as JSON</h3>**
 <p>Save file to the reconstructor directory (C:\Users\\%USER%\FlipperZero-BadUSB-Wireshark\reconstructor)</p>
 
-![saving_packet](https://raw.githubusercontent.com/larsje99/BadUSB_Script_Extractor/master/screenshots/saving_packet.png)
-![folder_save](https://raw.githubusercontent.com/larsje99/BadUSB_Script_Extractor/master/screenshots/wireshark_save.PNG)
+![saving_packet](screenshots/saving_packet.png)
+![folder_save](screenshots/wireshark_save.PNG)
 
 <br>
 
@@ -130,13 +132,13 @@ Now we can whitelist a specific USB device in our virtual machine with the idVen
 
 <p>Open terminal, navigate to reconstructor folder and run 'python reconstructor.py FILENAME.json</p>
 
-![cmd_python](https://raw.githubusercontent.com/larsje99/BadUSB_Script_Extractor/master/screenshots/cmd_python.PNG)
+![cmd_python](screenshots/cmd_python.PNG)
 
 <p>If all goes well you will find reconstructed_ducky_script.txt in the reconstructor directory</p>
 
-![reconstructor](https://raw.githubusercontent.com/larsje99/BadUSB_Script_Extractor/master/screenshots/reconstructor.PNG)
+![reconstructor](screenshots/reconstructor.PNG)
 
-![final_output](https://raw.githubusercontent.com/larsje99/BadUSB_Script_Extractor/master/screenshots/final_output.PNG)
+![final_output](screenshots/final_output.PNG)
 
 **YOU HAVE SUCCESFULLY CAUGHT THE DUCKY SCRIPT!**
 
