@@ -14,7 +14,7 @@
 <p>Download from official website: https://www.wireshark.org/</p>
 <p>Check USBPcap like so:</p>
 
-![wireshark_wizard](https://raw.githubusercontent.com/larsje99/BadUSB_Script_Extractor/master/screenshots/wireshark_wizard.png)
+![wireshark_wizard](screenshots/wireshark_wizard.png)
 
 <br>
 
